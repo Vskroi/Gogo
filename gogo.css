@@ -11,7 +11,7 @@
 }
 
 .textimg {
-    width: 62.5%;
+    max-width: 62.5%;
 
 }
 
@@ -23,7 +23,8 @@
 
     background-color: #f4f4f4;
     height: 900px;
-    width: 100%;
+    max-width: 100%;
+    
 
 
 }
@@ -112,8 +113,8 @@ span {
 }
 
 .box2 {
-    height: 100%;
-    width: 50%;
+    max-height: 100%;
+    max-width: 50%;
     overflow: hidden;
     border-radius: 8px;
     position: relative;
@@ -121,8 +122,8 @@ span {
 }
 
 .box {
-    width: 1115px;
-    height: 385px;
+    max-width: 1115px;
+    max-height: 385px;
     display: flex;
     background: linear-gradient(to right, #ededed, #ffffff);
     border-radius: 12px;
@@ -163,7 +164,7 @@ span {
 
 /* I */
 .img-height {
-    height: 16px;
+    max-height: 16px;
 }
 
 /* m */
@@ -173,8 +174,8 @@ span {
 
 /* box */
 .box3img {
-    height: 100%;
-    width: 100%;
+    max-height: 100%;
+    max-width:  100%;
     border-radius: 8px;
 }
 
@@ -185,25 +186,25 @@ span {
 
 .img1 {
     height: 180px;
-    width: 100%;
+    max-width:100%;
     border-radius: 8px;
 }
 
 .img2 {
-    height: 180px;
-    width: 100%;
+    max-height: 180px;
+    max-width: 100%;
     border-radius: 8px;
 }
 
 .img3 {
-    height: 180px;
-    width: 100%;
+    max-height: 180px;
+    max-width: 100%;
     border-radius: 8px;
 }
 
 .img4 {
-    height: 275px;
-    width: 250px;
+    max-height: 275px;
+    max-width: 250px;
     border-radius: 8px;
 }
 
@@ -228,8 +229,8 @@ span {
 .div2 {
     margin-top: 20px;
     font-size: 13px;
-    height: 333px;
-    width: 1115px;
+    max-height: 333px;
+    max-width: 1115px;
 
 }
 
@@ -303,29 +304,29 @@ span {
 
 .none1-2:hover .none1-3 {
     display: flex;
-   flex-wrap: wrap;
+    flex-wrap: wrap;
     margin: 0%;
-    
+
     position: absolute;
     position: fixed;
 }
 
 .none1-3 {
     position: absolute;
-    width: 530px;
+    max-width: 530px;
     display: none;
     z-index: 1;
     border-radius: 10px;
     background-color: #ededed;
     border: 1px solid black;
     font-size: 17px;
-    
+
 }
 
 .none1-4 {
     background: #ffffff;
-    width: 176px;
-   padding: 5px;
+   max-width: 176px;
+    padding: 5px;
 
 }
 
@@ -359,7 +360,7 @@ span {
 
 .ani {
     padding: 5px 12px;
-    width: 50px;
+    max-width: 50px;
     height: 35px;
     border-radius: 24px;
     background-color: rgb(224, 224, 224);
@@ -369,7 +370,7 @@ span {
     transition: 1s;
     position: absolute;
     padding: 9px 16px;
-    width: 65px;
+    max-width: 65px;
     height: 39px;
     border-radius: 24px;
     background-color: rgb(255, 255, 255);
@@ -385,12 +386,44 @@ span {
 
 }
 
-.imgt:hover{
+.imgt:hover {
     transform: translateX(-250px);
 }
-.story{
+
+.story {
     color: white;
     background-color: rgba(39, 168, 248, 0.818);
     padding: 3px;
     border-radius: 8px;
+}
+
+.box3 {
+    max-width: 180px;
+    height: 263px;
+ border-radius: 12px;
+}
+.g{
+    height: 30px;
+    position: absolute;
+    top:12px;
+    left:12px;
+}
+.transformtext2 {
+    display: inline;
+    margin: 0%;
+    padding: 0%;
+    color: #f9250000;
+    position: absolute;
+    top: 100%;
+    left: 12px;
+}
+
+
+.t2:hover .transformtext2 {
+    transition: 2s  ;
+    color: rgb(255, 255, 255);
+    padding: 1px 1px;
+    position: absolute;
+    top:60%
+
 }
