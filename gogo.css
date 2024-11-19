@@ -24,7 +24,7 @@
     background-color: #f4f4f4;
     height: 900px;
     max-width: 100%;
-    
+
 
 
 }
@@ -66,7 +66,7 @@ span {
     align-items: center;
 
 }
-
+.flex0{display: flex;}
 
 .flex2 {
     display: flex;
@@ -112,18 +112,11 @@ span {
 
 }
 
-.box2 {
-    max-height: 100%;
-    max-width: 50%;
-    overflow: hidden;
-    border-radius: 8px;
-    position: relative;
 
-}
 
 .box {
     max-width: 1115px;
-    max-height: 385px;
+    height: 385px;
     display: flex;
     background: linear-gradient(to right, #ededed, #ffffff);
     border-radius: 12px;
@@ -164,7 +157,7 @@ span {
 
 /* I */
 .img-height {
-    max-height: 16px;
+    height: 16px;
 }
 
 /* m */
@@ -174,9 +167,10 @@ span {
 
 /* box */
 .box3img {
-    max-height: 100%;
-    max-width:  100%;
+    height: 100%;
+    max-width: 100%;
     border-radius: 8px;
+    z-index: 1;
 }
 
 .div2box1 {
@@ -186,24 +180,40 @@ span {
 
 .img1 {
     height: 180px;
-    max-width:100%;
+    width: 100%;
     border-radius: 8px;
+}
+
+.img1box {
+
+    width: 100%;
+    height: 180px;
 }
 
 .img2 {
-    max-height: 180px;
-    max-width: 100%;
+    height: 180px;
+    width: 100%;
     border-radius: 8px;
+}
+
+.img2box {
+    width: 100%;
+    height: 180px;
 }
 
 .img3 {
-    max-height: 180px;
-    max-width: 100%;
+    height: 180px;
+    width: 100%;
     border-radius: 8px;
 }
 
+.img3box {
+    width: 100%;
+    height: 180px;
+}
+
 .img4 {
-    max-height: 275px;
+    height: 275px;
     max-width: 250px;
     border-radius: 8px;
 }
@@ -229,7 +239,7 @@ span {
 .div2 {
     margin-top: 20px;
     font-size: 13px;
-    max-height: 333px;
+    height: 333px;
     max-width: 1115px;
 
 }
@@ -251,6 +261,8 @@ span {
 
 .transform:hover {
     transform: scale(1.05, 1.05);
+    filter: brightness(75%);
+
 
 
 }
@@ -325,7 +337,7 @@ span {
 
 .none1-4 {
     background: #ffffff;
-   max-width: 176px;
+    max-width: 176px;
     padding: 5px;
 
 }
@@ -355,6 +367,16 @@ span {
 .t:hover .transformtext {
     color: rgb(255, 255, 255);
     padding: 1px 1px;
+
+
+}
+
+.box2 {
+    height: 100%;
+    max-width: 50%;
+    overflow: hidden;
+    border-radius: 8px;
+    position: relative;
 
 }
 
@@ -400,30 +422,133 @@ span {
 .box3 {
     max-width: 180px;
     height: 263px;
- border-radius: 12px;
+    border-radius: 12px;
+
 }
-.g{
+
+.z-10 {
+    z-index: 10;
+}
+
+.g {
     height: 30px;
     position: absolute;
-    top:12px;
-    left:12px;
+    top: 12px;
+    left: 12px;
 }
+
 .transformtext2 {
     display: inline;
     margin: 0%;
     padding: 0%;
-    color: #f9250000;
+    color: white;
     position: absolute;
-    top: 100%;
+    top: 62%;
     left: 12px;
+    font-size: 14px;
 }
 
+.transformtext2none {
+    display: inline;
+    margin: 0%;
+    padding: 0%;
+    color: white;
+    position: absolute;
+    top: 62%;
+    left: 12px;
+    font-size: 14px;
+}
 
 .t2:hover .transformtext2 {
-    transition: 2s  ;
-    color: rgb(255, 255, 255);
+    transition: 1s;
+    color: white;
     padding: 1px 1px;
     position: absolute;
-    top:60%
+    transform: translateY(-32px);
+    font-size: 14px;
+}
+.padding-left12{margin-left: 12.8px;}
 
+.text1div {
+    height: 100px;
+    width: 100%;
+
+    overflow: hidden;
+    position: absolute;
+    bottom: 40px;
+    overflow: hidden;
+
+}
+
+.eys {
+    position: absolute;
+    bottom: 1px;
+    left: 10px;
+    color: white;
+
+}
+
+.scale1:hover .scale {
+    transform: scale(1.05, 1.05);
+
+}
+
+.scale {
+    transition: transform 2s;
+    transition-duration: 1s;
+}
+
+.t2:hover .scale {
+    transition: 0s;
+    transform: scale(1.05, 1.05);
+}
+
+.z-9 {
+    z-index: 9;
+}
+.grass{
+    height: 25px;
+}
+.solid{
+    padding: 2.5px 55px;
+    background-color: rgb(0, 140, 255);
+  
+    border-radius:10px;
+    
+}
+.solidgray{    padding: 2.5px 55px;
+   
+    background-color: rgb(210, 210, 210);
+    border-radius:10px;}
+.width{
+    width: 1115px;
+    
+}
+.gap20px{gap:20px ;}
+.solidtext {
+    color: rgb(200, 198, 198);
+   
+    text-align: center;
+}
+.img5box{
+    height: 140px;
+    width: 200px;
+}
+.time{
+    height: 19px;
+    margin-left: 10px;
+}
+.margin-bottom30px{
+    margin-bottom: 30px;
+}
+.wood{
+ width: 30px;
+ 
+}
+.img6box{
+    height: 180px;
+    width: 315px;
+}
+.width315{
+    width: 315px;
 }
