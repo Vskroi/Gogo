@@ -473,6 +473,7 @@ span {
 
 .t2:hover .transformtext2 {
     transition: 1s;
+
     color: white;
     padding: 1px 1px;
     position: absolute;
@@ -505,16 +506,16 @@ span {
 
 .scale1:hover .scale {
     transform: scale(1.05, 1.05);
-
+    
 }
 
 .scale {
-    transition: transform 2s;
-    transition-duration: 1s;
+    transition:1s;
+    
 }
 
 .t2:hover .scale {
-    transition: 0s;
+    transition: 1s;
     transform: scale(1.05, 1.05);
 }
 
@@ -581,11 +582,12 @@ span {
 }
 
 .width315 {
-    width: 315px;
+    width: 290px;
+
 }
 
 .width295 {
-    width: 29 5px;
+    width: 295px;
     height: 180px;
 }
 
@@ -599,7 +601,7 @@ span {
     background-color: rgba(0, 119, 255, 0.925);
     position: relative;
     color: white;
-margin-bottom: 40px;
+    margin-bottom: 40px;
 }
 
 .lefttop {
@@ -631,14 +633,57 @@ margin-bottom: 40px;
     border: 1px solid rgb(239, 239, 239);
     border-radius: 8px;
 }
-.seemore:hover{
+
+.seemore:hover {
     background-color: white;
     color: rgb(0, 73, 168);
 
 }
-.trend{
+
+.trend {
     width: 300px;
     height: auto;
     border-bottom: 1px dashed rgb(235, 235, 235);
     color: black;
+    display: flex;
+    margin-bottom: 20px;
+
 }
+
+.trendtext {
+    color: black;
+    width: 260px;
+    position: relative;
+    display: flex;
+    font-size: 14px;
+
+}
+
+.dashed {
+    border-bottom: 1px dashed;
+    border-color: rgb(12, 9, 4);
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.h1 {
+    font-size: 50px;
+    color: red;
+    margin-top: -10px;
+    padding-right: 10px;
+}
+
+.trendhover:hover {
+    transform: scale(1.02, 1.02);
+    transition: 0.5s;
+}
+
+.trendtext:hover p {
+    color: rgb(83, 82, 82);
+}
+
+.burlywood {
+    height: 1490px;
+    width: 350px;
+    background-color: rgb(255, 250, 244);
+    margin-top: 60px;}
