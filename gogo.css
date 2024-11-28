@@ -8,7 +8,10 @@
 .display-block {
     display: block;
 }
-textwi
+.padding:hover .srch{
+  
+    stroke: blue;
+}
 
 .fontfamily {
     font-family: Helvetica, sans-serif, Arial;
@@ -348,6 +351,7 @@ span {
     transform: scale(2, 2);
 }
 
+
 .btn {
     overflow: hidden;
     border: none;
@@ -358,7 +362,7 @@ span {
 
 .btn:hover {
 
-    color: rgb(73, 73, 73);
+    color: rgb(142, 142, 142);
 }
 
 .font-size12 {
@@ -1283,13 +1287,16 @@ font-family:monospace;
 
 .gogologo {
     display: flex;
+    
 }
 
 .x {
     margin-left: 3%;
     display: flex;
 }
-.logo{width: fit-content; display: flex; flex-wrap: wrap;}
+.logo{width: fit-content; display: flex; flex-wrap: wrap;
+justify-content: end;
+row-gap: 20px;}
 
 .social-logo {
     display: flex;
